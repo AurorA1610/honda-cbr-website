@@ -15,9 +15,8 @@ html, body{
 .highlighting-color{
     color: #E76F51;
 }
-.modal-link{
+a{
     text-decoration: none;
-    color: white;
 }
 .img-gray{
     filter: grayscale(1);
