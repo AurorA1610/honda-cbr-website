@@ -5,7 +5,7 @@ html, body{
 .bg-header{
     background-color: #264653;
 }
-p{
+ header p{
     color: #E0E0E0;
 }
 .btn-custom{
@@ -18,4 +18,20 @@ p{
 .modal-link{
     text-decoration: none;
     color: white;
+}
+.img-gray{
+    filter: grayscale(1);
+}
+.review-p{
+    color: #6C6C6C;
+    height: 140px;
+}
+.clients-name{
+    color: #23A6F0;
+}
+.accordion-header-color{
+    color: #383838;
+}
+.accordion-body-color{
+    color: #7E848C;;
 }
