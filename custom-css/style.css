@@ -34,3 +34,6 @@ a{
 .accordion-body-color{
     color: #7E848C;;
 }
+.bg-gallery{
+    background-image: linear-gradient(gray, #023f57);
+}
