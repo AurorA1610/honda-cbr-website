@@ -1,0 +1,21 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.bg-header{
+    background-color: #264653;
+}
+p{
+    color: #E0E0E0;
+}
+.btn-custom{
+    background-color: #E76F51;
+    color: white;
+}
+.highlighting-color{
+    color: #E76F51;
+}
+.modal-link{
+    text-decoration: none;
+    color: white;
+}

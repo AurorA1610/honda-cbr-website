@@ -5,21 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- custom stylesheet  -->
+    <link rel="stylesheet" href="custom-css/style.css">
 </head>
 <body>
     <!-- header starts -->
     <header>
-        <section class="container-fluid bg-success ">
-            <div class="row d-flex align-items-center p-5 gx-5">
+        <section class="container-fluid bg-header">
+            <div class="row d-flex align-items-center px-lg-5 py-5 gx-5">
                 <div class="col-lg-6 text-light">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
-                    <h1>Honda CBR 300R</h1>
-                    <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town and on twisty back roads.</p>
-                    <button class="btn btn-danger">Purchase</button>
+                    <h1 class="fw-bolder">Honda CBR 300R</h1>
+                    <p class="py-3">If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town and on twisty back roads.</p>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn px-4 text-white btn-custom" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+  
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title highlighting-color" id="exampleModalLabel">Find a dealer</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-dark">
+                                    Motorcycle dealerships can be a good option for those either looking to buy a new motorcycle or a certified preowned bike. Dealerships are especially useful if you're interested in a specific make and model.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-custom"><a class=" text-white modal-link" target="_blank" href="https://powersports.honda.com/find-a-dealer">Find your nearest dealer</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
             </div>
         </section>
     </header>
@@ -174,6 +201,10 @@
                 </div>
             </div>
         </section>
+
+        <!-- extra sections starts  -->
+        
+        <!-- extra section ends  -->
     </main>
 
     <!-- footer starts -->
